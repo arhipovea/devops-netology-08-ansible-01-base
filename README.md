@@ -50,7 +50,7 @@ ok: [ubuntu] => {
 
 6.  Повторите запуск playbook на окружении `prod.yml`. Убедитесь, что выдаются корректные значения для всех хостов.
 
-[pic01](https://hub.docker.com/repository/devops-netology-08-ansible-01-base)
+[pic01](https://github.com/arhipovea/devops-netology-08-ansible-01-base/blob/main/assets/pic01.png)
 
 7. При помощи `ansible-vault` зашифруйте факты в `group_vars/deb` и `group_vars/el` с паролем `netology`.
 
@@ -60,13 +60,13 @@ ea@msc-it-88 ~/devops-netology-08-ansible-01-base/playbook main ⇡1 !4 $ ansibl
 
 8. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь в работоспособности.
 
-[pic02]()
+[pic02](https://github.com/arhipovea/devops-netology-08-ansible-01-base/blob/main/assets/pic02.png)
 
 9. Посмотрите при помощи `ansible-doc` список плагинов для подключения. Выберите подходящий для работы на `control node`.
 
 local
 
-[pic03]()
+[pic03](https://github.com/arhipovea/devops-netology-08-ansible-01-base/blob/main/assets/pic03.png)
 
 10. В `prod.yml` добавьте новую группу хостов с именем  `local`, в ней разместите localhost с необходимым типом подключения.
 
